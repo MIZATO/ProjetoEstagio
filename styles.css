@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    width: 100%;
+    height: 50vh;
+    border-bottom: 15px black solid;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #00ccff;
+    background-image: linear-gradient(180deg, #00ccff, white);
+}
+
+#score {
+    text-align: end;
+    font-size: 150%;
+}
+
+#texto {
+    text-align: center;
+    font-size: 150%;
+}
+
+#dino {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 10vw;
+    bottom: 49vh;
+}
+
+#cactus {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    bottom: 49vh;
+}
+
+.cactus-moving {
+    left: -50vw;
+    transition: left 5s linear;
+}
+
+.cactus-start {
+    left: 96vw;
+}
